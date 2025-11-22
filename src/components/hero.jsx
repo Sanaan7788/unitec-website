@@ -1,4 +1,5 @@
 import videoFile from '../assets/hero-video.mp4';
+import posterFile from '../assets/hero-poster.jpg';
 const Hero = () => {
   const scrollToProducts = () => {
     const element = document.getElementById('products');
@@ -16,7 +17,7 @@ const Hero = () => {
           loop
           muted
           playsInline
-          poster="/hero-poster.jpg"
+          poster="{posterFile}"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src={videoFile} />
