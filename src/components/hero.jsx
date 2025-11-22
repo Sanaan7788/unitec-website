@@ -17,7 +17,7 @@ const Hero = () => {
           loop
           muted
           playsInline
-          poster="{posterFile}"
+          poster={posterFile}
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src={videoFile} />
